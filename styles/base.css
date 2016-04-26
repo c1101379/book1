@@ -224,6 +224,9 @@ container: 12*60px (unit) + 13*16px (gutter) = 928px = 58em = 100%
   margin: 0 auto;
   padding: 0 16px;
   text-align: left;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* grid */
